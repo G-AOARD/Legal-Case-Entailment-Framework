@@ -1,0 +1,11 @@
+{
+    "model_name": "e5-mistral",
+    "model_type": "FEATURE_EXTRACTION",
+    "model_path": "intfloat/e5-mistral-7b-instruct",
+    "batch_size": 1,
+    "max_length": 4096,
+    "add_eos_token": true,
+    "prompt": "e5-mistral-7b-instruct",
+    "embeddings_method": "last_token_pooling",
+    "normalize": true
+}

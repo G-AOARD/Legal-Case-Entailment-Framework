@@ -1,0 +1,22 @@
+{
+    "model_name": "colbert-uot",
+    "model_path": "colbert-ir/colbertv2.0",
+    "model_type": "RET",
+    "filter_stopwords": true,
+    "doc_padding": "longest",
+    "alignment": "otp",
+    "subword_weights": 0.5,
+    "otp_configs": {
+        "weights_dist": "uniform",
+        "cost_distance": "dot",
+        "rescale_cost": false,
+        "uniform_mass": false,
+        "distortion_ratio": 0,
+        "opt_method": "sinkhorn_stabilized_unbalanced",
+        "reg": 0.1,
+        "reg_m": 1,
+        "reg_type": "entropy",
+        "alignment_top_k_incl": 10,
+        "alignment_top_k_per_row": 1
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "model_name": "monoT5",
+    "model_type": "T5",
+    "model_path": "thanhtc/monot5-3B-legal-ent",
+    "retrieval_top_k": 20
+}

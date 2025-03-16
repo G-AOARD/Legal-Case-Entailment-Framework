@@ -1,0 +1,6 @@
+[submodule "modules/splade"]
+	path = modules/splade
+	url = https://github.com/naver/splade
+[submodule "modules/pygaggle"]
+	path = modules/pygaggle
+	url = https://github.com/castorini/pygaggle

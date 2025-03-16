@@ -1,0 +1,8 @@
+{
+    "model_name": "splade",
+    "model_type": "FEATURE_EXTRACTION",
+    "model_path": "naver/splade-cocondenser-ensembledistil",
+    "batch_size": 8,
+    "max_length": 512,
+    "embeddings_method": "none"    
+}

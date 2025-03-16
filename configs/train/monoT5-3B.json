@@ -1,0 +1,22 @@
+{
+    "seed": 442,
+    "num_positives_per_example": 2,
+    "num_negatives_per_example": 5,
+    "sampling_strategy": "seq",
+    "query_retrieval_file": "artifacts/negative_samples/colbert_uot.json",
+
+    "model_name": "castorini/monot5-3b-msmarco-10k",
+    "context_length": 512,
+    "prompt_template": "monoT5",
+    "instruction_template": "monoT5",
+    "model_type": "T5",
+    "num_epochs": 3,
+    "batch_size": 1,
+    "eval_batch_size": 4,
+    "gradient_accumulation_steps": 16,
+    "optimizer": "adafactor",
+    "lr": 5e-05,
+    "weight_decay": 5e-05,
+    "loss_fn": "cross_entropy",
+    "val_metric": ["mrr", "f1"]
+}

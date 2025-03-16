@@ -1,0 +1,6 @@
+{
+    "model_name": "colbert",
+    "model_type": "RET",
+    "model_path": "colbert-ir/colbertv2.0",
+    "alignment": "maxsim"
+}

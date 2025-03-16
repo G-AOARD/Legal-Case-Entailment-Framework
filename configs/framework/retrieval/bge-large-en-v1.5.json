@@ -1,0 +1,9 @@
+{
+    "model_name": "bge",
+    "model_type": "FEATURE_EXTRACTION",
+    "model_path": "BAAI/bge-large-en-v1.5",
+    "batch_size": 8,
+    "max_length": 512,
+    "embeddings_method": "first_token",
+    "normalize": true
+}

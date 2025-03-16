@@ -1,0 +1,9 @@
+{
+    "model_name": "contriever",
+    "model_type": "FEATURE_EXTRACTION",
+    "model_path": "facebook/contriever-msmarco",
+    "batch_size": 8,
+    "max_length": 512,
+    "embeddings_method": "average_pooling",
+    "normalize": true
+}
