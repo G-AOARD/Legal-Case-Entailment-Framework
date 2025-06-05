@@ -1,5 +1,5 @@
-# Offical implementation of the paper: A Retrieval-focused Language Models Framework for Legal Case Entailment
-### The system is implempted by Tran Cong Thanh with Prof Nguyen Le Minh (PI, supervisor) in NguyenLab@JAIST
+# Official implementation of the paper: A Retrieval-focused Language Models Framework for Legal Case Entailment
+### The system is implemented by Tran Cong Thanh with Prof Nguyen Le Minh (PI, supervisor) in NguyenLab@JAIST
 
 ## Results on COLIEE Legal Case Entailment Task
 
@@ -46,7 +46,7 @@
 
 ### [4] Zero-shot list-wise entailment prediction with LLM
 - Must run [2] first to obtain the re-ranking output of MonoT5
-- Lookup the prompt list in `src/llms/prompts/legal_entailment.py`
+- Look up the prompt list in `src/llms/prompts/legal_entailment.py`
 - Lookup the supported LLMs in `src/llms/utils.py`
 
 ```bash
